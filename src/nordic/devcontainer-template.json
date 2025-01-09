@@ -1,0 +1,12 @@
+{
+    "id": "nordic-template",
+    "version": "0.1.0",
+    "name": "Zephyr for Nordic Semiconductor",
+    "description": "A Template to create a Zephyr project for Nordic Semiconductor",
+    "documentationURL": "",
+    "licenseURL": "",
+    "platforms": [
+        "Any"
+    ],
+    "publisher": "GoodByte"
+}
