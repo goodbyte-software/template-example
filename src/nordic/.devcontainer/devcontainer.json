@@ -16,7 +16,8 @@
         }
     },
     "mounts": [
-        "source=.,target=/repo,type=bind"
+        "source=.,target=/repo,type=bind",
+        "source=/dev,target=/dev,type=bind"
     ],
     "onCreateCommand": "bash -i /repo/.devcontainer/onCreateCommand.sh",
     "workspaceFolder": "/repo",
