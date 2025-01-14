@@ -4,11 +4,14 @@ manifest:
   projects:
     - name: nrf
       revision: v2.9.0
-      path: deps
       url: http://github.com/nrfconnect/sdk-nrf
       import:
         name-allowlist:
           - zephyr
+          - cmsis
+          - hal_nordic
+          - nrfxlib
+        path-prefix: deps
 
   self:
     path: app
