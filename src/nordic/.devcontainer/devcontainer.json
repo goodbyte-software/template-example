@@ -8,7 +8,7 @@
     "features": {
         "ghcr.io/goodbyte-software/goodbyte-features/ncs-toolchain:latest": {
             "version": "0.16.8",
-            "Architecture": "arm"
+            "architecture": "arm"
         },
         "ghcr.io/goodbyte-software/goodbyte-features/codechecker:latest": {},
         "ghcr.io/goodbyte-software/goodbyte-features/jlink:latest": {
