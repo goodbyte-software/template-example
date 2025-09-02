@@ -7,12 +7,12 @@
     ],
     "features": {
         "ghcr.io/goodbyte-software/goodbyte-features/ncs-toolchain:latest": {
-            "version": "0.16.8",
+            "version": "0.17.4",
             "architecture": "arm"
         },
         "ghcr.io/goodbyte-software/goodbyte-features/codechecker:latest": {},
         "ghcr.io/goodbyte-software/goodbyte-features/jlink:latest": {
-            "version": "7.94e"
+            "version": "8.60"
         }
     },
     "mounts": [
