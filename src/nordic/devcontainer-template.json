@@ -1,6 +1,6 @@
 {
     "id": "nordic",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "name": "Zephyr for Nordic Semiconductor",
     "description": "A Template to create a Zephyr project for Nordic Semiconductor",
     "documentationURL": "",
