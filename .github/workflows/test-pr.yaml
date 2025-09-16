@@ -15,6 +15,7 @@ jobs:
             color: ./**/color/**
             hello: ./**/hello/**
             nordic: ./**/nordic/**
+            stm32: ./**/stm32/**
 
   test:
     needs: [detect-changes]

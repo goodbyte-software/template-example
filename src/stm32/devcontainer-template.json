@@ -1,0 +1,12 @@
+{
+    "id": "stm32",
+    "version": "0.1.0",
+    "name": "Basic utilities for stm32 development",
+    "description": "A Template to create a Stm32 project",
+    "documentationURL": "",
+    "licenseURL": "",
+    "platforms": [
+        "Any"
+    ],
+    "publisher": "GoodByte"
+}

@@ -1,0 +1,27 @@
+{
+    "image": "ubuntu:22.04",
+    "name": "arm",
+    "remoteUser": "dev",
+    "features": {
+        "ghcr.io/goodbyte-software/goodbyte-features/arm-none-eabi-gcc:latest": {},
+        "ghcr.io/goodbyte-software/goodbyte-features/dev-dependencies:latest": {},
+        "ghcr.io/goodbyte-software/goodbyte-features/jlink:latest": {
+            "version": "8.60"
+        },
+        "ghcr.io/devcontainers/features/python:1": {
+            "version": "3.10"
+        }
+    },
+    "mounts": [
+        "source=.,target=/repo,type=bind",
+        "source=/dev,target=/dev,type=bind"
+    ],
+    "workspaceFolder": "/repo",
+    "remoteEnv": {
+        "LC_ALL": "C"
+    },
+    "shutdownAction": "stopContainer",
+    "runArgs": [
+        "--privileged"
+    ]
+}
